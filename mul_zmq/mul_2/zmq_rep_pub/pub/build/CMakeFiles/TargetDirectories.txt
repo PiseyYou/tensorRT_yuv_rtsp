@@ -1,0 +1,4 @@
+/home/l/Downloads/deepstream_reference_apps/zmq_rep_pub/pub/build/CMakeFiles/edit_cache.dir
+/home/l/Downloads/deepstream_reference_apps/zmq_rep_pub/pub/build/CMakeFiles/rebuild_cache.dir
+/home/l/Downloads/deepstream_reference_apps/zmq_rep_pub/pub/build/CMakeFiles/zmq_struct_yuv_client.dir
+/home/l/Downloads/deepstream_reference_apps/zmq_rep_pub/pub/build/CMakeFiles/zmq_struct_yuv_server_recall.dir

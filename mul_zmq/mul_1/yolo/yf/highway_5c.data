@@ -1,0 +1,6 @@
+classes=5
+train=/home/l/code/darknet/highway_5c/Train_img.txt
+valid=/home/l/code/darknet/highway_5c/Valid_img.txt
+names=/home/l/code/darknet/highway_5c/small_target_5c.names
+backup=backup/
+eval=coco/

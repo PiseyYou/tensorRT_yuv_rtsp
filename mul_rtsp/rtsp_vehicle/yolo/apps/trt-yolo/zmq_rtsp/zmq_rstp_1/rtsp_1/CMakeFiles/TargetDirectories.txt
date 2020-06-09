@@ -1,0 +1,14 @@
+/home/l/Downloads/PiseyYou/multidetect/mul_1/yolo/apps/trt-yolo/zmq_rtsp/zmq_rstp_1/rtsp_1/CMakeFiles/install.dir
+/home/l/Downloads/PiseyYou/multidetect/mul_1/yolo/apps/trt-yolo/zmq_rtsp/zmq_rstp_1/rtsp_1/CMakeFiles/list_install_components.dir
+/home/l/Downloads/PiseyYou/multidetect/mul_1/yolo/apps/trt-yolo/zmq_rtsp/zmq_rstp_1/rtsp_1/CMakeFiles/rebuild_cache.dir
+/home/l/Downloads/PiseyYou/multidetect/mul_1/yolo/apps/trt-yolo/zmq_rtsp/zmq_rstp_1/rtsp_1/CMakeFiles/trt-yolo-rtsp1.dir
+/home/l/Downloads/PiseyYou/multidetect/mul_1/yolo/apps/trt-yolo/zmq_rtsp/zmq_rstp_1/rtsp_1/CMakeFiles/install/strip.dir
+/home/l/Downloads/PiseyYou/multidetect/mul_1/yolo/apps/trt-yolo/zmq_rtsp/zmq_rstp_1/rtsp_1/CMakeFiles/install/local.dir
+/home/l/Downloads/PiseyYou/multidetect/mul_1/yolo/apps/trt-yolo/zmq_rtsp/zmq_rstp_1/rtsp_1/CMakeFiles/edit_cache.dir
+/home/l/Downloads/PiseyYou/multidetect/mul_1/yolo/apps/trt-yolo/zmq_rtsp/zmq_rstp_1/rtsp_1/lib/CMakeFiles/install.dir
+/home/l/Downloads/PiseyYou/multidetect/mul_1/yolo/apps/trt-yolo/zmq_rtsp/zmq_rstp_1/rtsp_1/lib/CMakeFiles/list_install_components.dir
+/home/l/Downloads/PiseyYou/multidetect/mul_1/yolo/apps/trt-yolo/zmq_rtsp/zmq_rstp_1/rtsp_1/lib/CMakeFiles/rebuild_cache.dir
+/home/l/Downloads/PiseyYou/multidetect/mul_1/yolo/apps/trt-yolo/zmq_rtsp/zmq_rstp_1/rtsp_1/lib/CMakeFiles/yolo-lib.dir
+/home/l/Downloads/PiseyYou/multidetect/mul_1/yolo/apps/trt-yolo/zmq_rtsp/zmq_rstp_1/rtsp_1/lib/CMakeFiles/edit_cache.dir
+/home/l/Downloads/PiseyYou/multidetect/mul_1/yolo/apps/trt-yolo/zmq_rtsp/zmq_rstp_1/rtsp_1/lib/CMakeFiles/install/strip.dir
+/home/l/Downloads/PiseyYou/multidetect/mul_1/yolo/apps/trt-yolo/zmq_rtsp/zmq_rstp_1/rtsp_1/lib/CMakeFiles/install/local.dir

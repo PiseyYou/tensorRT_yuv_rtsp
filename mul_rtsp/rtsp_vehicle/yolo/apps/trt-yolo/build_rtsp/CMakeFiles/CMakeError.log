@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_vehicle/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_57a50/fast"
+/usr/bin/make -f CMakeFiles/cmTC_57a50.dir/build.make CMakeFiles/cmTC_57a50.dir/build
+make[1]: Entering directory '/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_vehicle/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_57a50.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++     -std=c++11 -Wall -Wunused-function -Wunused-variable -Wfatal-errors    -o CMakeFiles/cmTC_57a50.dir/CheckSymbolExists.cxx.o -c /home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_vehicle/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_57a50
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57a50.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++11 -Wall -Wunused-function -Wunused-variable -Wfatal-errors     CMakeFiles/cmTC_57a50.dir/CheckSymbolExists.cxx.o  -o cmTC_57a50 
+CMakeFiles/cmTC_57a50.dir/CheckSymbolExists.cxx.o: In function `main':
+CheckSymbolExists.cxx:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_57a50.dir/build.make:97: recipe for target 'cmTC_57a50' failed
+make[1]: *** [cmTC_57a50] Error 1
+make[1]: Leaving directory '/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_vehicle/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_57a50/fast' failed
+make: *** [cmTC_57a50/fast] Error 2
+
+File /home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_vehicle/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_vehicle/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1e962/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1e962.dir/build.make CMakeFiles/cmTC_1e962.dir/build
+make[1]: Entering directory '/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_vehicle/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1e962.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++     -std=c++11 -Wall -Wunused-function -Wunused-variable -Wfatal-errors -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1e962.dir/CheckFunctionExists.cxx.o -c /home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_vehicle/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_1e962
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e962.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++11 -Wall -Wunused-function -Wunused-variable -Wfatal-errors -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_1e962.dir/CheckFunctionExists.cxx.o  -o cmTC_1e962 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1e962.dir/build.make:97: recipe for target 'cmTC_1e962' failed
+make[1]: *** [cmTC_1e962] Error 1
+make[1]: Leaving directory '/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_vehicle/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1e962/fast' failed
+make: *** [cmTC_1e962/fast] Error 2
+
+

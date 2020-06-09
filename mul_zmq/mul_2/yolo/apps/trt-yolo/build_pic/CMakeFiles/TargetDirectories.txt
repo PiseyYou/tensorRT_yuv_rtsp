@@ -1,0 +1,14 @@
+/home/l/Downloads/PiseyYou/trt_yolo_video/deepstream_reference_apps/yolo/apps/trt-yolo/build_pic/CMakeFiles/install.dir
+/home/l/Downloads/PiseyYou/trt_yolo_video/deepstream_reference_apps/yolo/apps/trt-yolo/build_pic/CMakeFiles/list_install_components.dir
+/home/l/Downloads/PiseyYou/trt_yolo_video/deepstream_reference_apps/yolo/apps/trt-yolo/build_pic/CMakeFiles/rebuild_cache.dir
+/home/l/Downloads/PiseyYou/trt_yolo_video/deepstream_reference_apps/yolo/apps/trt-yolo/build_pic/CMakeFiles/trt-yolo-pic.dir
+/home/l/Downloads/PiseyYou/trt_yolo_video/deepstream_reference_apps/yolo/apps/trt-yolo/build_pic/CMakeFiles/install/strip.dir
+/home/l/Downloads/PiseyYou/trt_yolo_video/deepstream_reference_apps/yolo/apps/trt-yolo/build_pic/CMakeFiles/install/local.dir
+/home/l/Downloads/PiseyYou/trt_yolo_video/deepstream_reference_apps/yolo/apps/trt-yolo/build_pic/CMakeFiles/edit_cache.dir
+/home/l/Downloads/PiseyYou/trt_yolo_video/deepstream_reference_apps/yolo/apps/trt-yolo/build_pic/lib/CMakeFiles/install.dir
+/home/l/Downloads/PiseyYou/trt_yolo_video/deepstream_reference_apps/yolo/apps/trt-yolo/build_pic/lib/CMakeFiles/list_install_components.dir
+/home/l/Downloads/PiseyYou/trt_yolo_video/deepstream_reference_apps/yolo/apps/trt-yolo/build_pic/lib/CMakeFiles/rebuild_cache.dir
+/home/l/Downloads/PiseyYou/trt_yolo_video/deepstream_reference_apps/yolo/apps/trt-yolo/build_pic/lib/CMakeFiles/yolo-lib.dir
+/home/l/Downloads/PiseyYou/trt_yolo_video/deepstream_reference_apps/yolo/apps/trt-yolo/build_pic/lib/CMakeFiles/edit_cache.dir
+/home/l/Downloads/PiseyYou/trt_yolo_video/deepstream_reference_apps/yolo/apps/trt-yolo/build_pic/lib/CMakeFiles/install/strip.dir
+/home/l/Downloads/PiseyYou/trt_yolo_video/deepstream_reference_apps/yolo/apps/trt-yolo/build_pic/lib/CMakeFiles/install/local.dir

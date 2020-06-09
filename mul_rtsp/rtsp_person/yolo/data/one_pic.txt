@@ -1,0 +1,1 @@
+/home/l/Downloads/deepstream_reference_apps/yolo/apps/trt-yolo.jpg

@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/l/Downloads/PiseyYou/multidetect/mul_1/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_af856/fast"
+/usr/bin/make -f CMakeFiles/cmTC_af856.dir/build.make CMakeFiles/cmTC_af856.dir/build
+make[1]: Entering directory '/home/l/Downloads/PiseyYou/multidetect/mul_1/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_af856.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++     -std=c++11 -Wall -Wunused-function -Wunused-variable -Wfatal-errors    -o CMakeFiles/cmTC_af856.dir/CheckSymbolExists.cxx.o -c /home/l/Downloads/PiseyYou/multidetect/mul_1/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_af856
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af856.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++11 -Wall -Wunused-function -Wunused-variable -Wfatal-errors     CMakeFiles/cmTC_af856.dir/CheckSymbolExists.cxx.o  -o cmTC_af856 
+CMakeFiles/cmTC_af856.dir/CheckSymbolExists.cxx.o: In function `main':
+CheckSymbolExists.cxx:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_af856.dir/build.make:97: recipe for target 'cmTC_af856' failed
+make[1]: *** [cmTC_af856] Error 1
+make[1]: Leaving directory '/home/l/Downloads/PiseyYou/multidetect/mul_1/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_af856/fast' failed
+make: *** [cmTC_af856/fast] Error 2
+
+File /home/l/Downloads/PiseyYou/multidetect/mul_1/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/l/Downloads/PiseyYou/multidetect/mul_1/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4328f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4328f.dir/build.make CMakeFiles/cmTC_4328f.dir/build
+make[1]: Entering directory '/home/l/Downloads/PiseyYou/multidetect/mul_1/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4328f.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++     -std=c++11 -Wall -Wunused-function -Wunused-variable -Wfatal-errors -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4328f.dir/CheckFunctionExists.cxx.o -c /home/l/Downloads/PiseyYou/multidetect/mul_1/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_4328f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4328f.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++11 -Wall -Wunused-function -Wunused-variable -Wfatal-errors -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_4328f.dir/CheckFunctionExists.cxx.o  -o cmTC_4328f -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_4328f.dir/build.make:97: recipe for target 'cmTC_4328f' failed
+make[1]: *** [cmTC_4328f] Error 1
+make[1]: Leaving directory '/home/l/Downloads/PiseyYou/multidetect/mul_1/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4328f/fast' failed
+make: *** [cmTC_4328f/fast] Error 2
+
+
