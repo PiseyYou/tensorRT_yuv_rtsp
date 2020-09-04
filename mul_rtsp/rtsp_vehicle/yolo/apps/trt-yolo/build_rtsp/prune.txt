@@ -31,9 +31,9 @@
 # labels_file_path : Text file with a list of object class labels
 
 --network_type=yolov3
---config_file_path=/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_vehicle/yolo/data/16.2M.cfg
---wts_file_path=/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_vehicle/yolo/data/16.2M.weights
---labels_file_path=/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_vehicle/yolo/data/16.2M.txt
+--config_file_path=/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_vehicle/yolo/data/16.2M.cfg
+--wts_file_path=/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_vehicle/yolo/data/16.2M.weights
+--labels_file_path=/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_vehicle/yolo/data/16.2M.txt
 
 #Optional config params
 # precision : Inference precision of the network
@@ -72,7 +72,7 @@
 #--do_benchmark=true
 --view_detections=true
 #--save_detections=true
-#--save_detections_path=/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_vehicle/yolo/data/detections/
+#--save_detections_path=/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_vehicle/yolo/data/detections/
 #--decode=false
 #--seed
 #--shuffle_test_set=false

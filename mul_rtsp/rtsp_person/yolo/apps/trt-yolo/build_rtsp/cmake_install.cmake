@@ -1,4 +1,4 @@
-# Install script for directory: /home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo
+# Install script for directory: /home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,7 +40,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
            FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/trt-yolo-rtsp-person"
            RPATH "")
     endif()
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/trt-yolo-rtsp-person")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/trt-yolo-rtsp-person")
     if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/trt-yolo-rtsp-person" AND
        NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/trt-yolo-rtsp-person")
       file(RPATH_CHANGE
@@ -56,7 +56,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/lib/cmake_install.cmake")
+  include("/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/lib/cmake_install.cmake")
 
 endif()
 
@@ -68,5 +68,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

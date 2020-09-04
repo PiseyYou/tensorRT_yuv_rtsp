@@ -24,7 +24,7 @@
 using namespace std;
 using namespace cv;
 
-#define pbREQ_IP_PORT "tcp://192.168.1.200:5555"
+#define pbREQ_IP_PORT "tcp://192.168.1.102:5555"
 // #define PUB_IP "tcp://192.168.1.200:"
 //#define PUB_IP_local "tcp://127.0.0.1:6557"
 #define REQ_IP_PORT "tcp://192.168.1.210:5530"
@@ -162,6 +162,10 @@ int main(int argc, char **argv) {
 
 }
 
+int getTime() {
+    return clock()/CLOCKS_PER_SEC;
+}
+
 
 // void get_rgb_img() {
 
@@ -295,7 +299,25 @@ void detect_highway_person(int argc, char **argv) {
     int no_person_frame = 0;
     string state = "end";
 //    string state ="";
+    int lastTime = 0;
     while (ret) {
+        int now = getTime();
+        cout << "now Time: " << now << endl;
+        cout << "last Time: " << lastTime << endl;
+
+        if ((now - lastTime) == 5) {
+            string get_url = "name=detector2;action=get_rtsp_url";
+            zmq::message_t pulse(strlen(get_url.c_str()));
+            memcpy((void *) pulse.data(), get_url.c_str(), strlen(get_url.c_str()));
+            reqer.send(pulse);
+            // reqer.send(message);
+            cout << "send pulse OK" << endl;
+            lastTime = now;
+            zmq::message_t serbak;
+            reqer.recv(&serbak);
+            std::string remsg = std::string(static_cast<char *>(reply.data()), reply.size());
+            std::cout << "get the reply: " << remsg << std::endl;
+        }
 
         double timecost3 = (double) getTickCount();
 

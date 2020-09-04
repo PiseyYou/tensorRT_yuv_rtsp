@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_car/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp
+Change Dir: /home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_car/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_777ad/fast"
-/usr/bin/make -f CMakeFiles/cmTC_777ad.dir/build.make CMakeFiles/cmTC_777ad.dir/build
-make[1]: Entering directory '/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_car/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_777ad.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++     -std=c++11 -Wall -Wunused-function -Wunused-variable -Wfatal-errors    -o CMakeFiles/cmTC_777ad.dir/CheckSymbolExists.cxx.o -c /home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_car/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-Linking CXX executable cmTC_777ad
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_777ad.dir/link.txt --verbose=1
-/usr/bin/c++   -std=c++11 -Wall -Wunused-function -Wunused-variable -Wfatal-errors     CMakeFiles/cmTC_777ad.dir/CheckSymbolExists.cxx.o  -o cmTC_777ad 
-CMakeFiles/cmTC_777ad.dir/CheckSymbolExists.cxx.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_fc86a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fc86a.dir/build.make CMakeFiles/cmTC_fc86a.dir/build
+make[1]: Entering directory '/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_car/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fc86a.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++     -std=c++11 -Wall -Wunused-function -Wunused-variable -Wfatal-errors    -o CMakeFiles/cmTC_fc86a.dir/CheckSymbolExists.cxx.o -c /home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_car/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_fc86a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc86a.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++11 -Wall -Wunused-function -Wunused-variable -Wfatal-errors     CMakeFiles/cmTC_fc86a.dir/CheckSymbolExists.cxx.o  -o cmTC_fc86a 
+CMakeFiles/cmTC_fc86a.dir/CheckSymbolExists.cxx.o: In function `main':
 CheckSymbolExists.cxx:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_777ad.dir/build.make:97: recipe for target 'cmTC_777ad' failed
-make[1]: *** [cmTC_777ad] Error 1
-make[1]: Leaving directory '/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_car/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_777ad/fast' failed
-make: *** [cmTC_777ad/fast] Error 2
+CMakeFiles/cmTC_fc86a.dir/build.make:97: recipe for target 'cmTC_fc86a' failed
+make[1]: *** [cmTC_fc86a] Error 1
+make[1]: Leaving directory '/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_car/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fc86a/fast' failed
+make: *** [cmTC_fc86a/fast] Error 2
 
-File /home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_car/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_car/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_car/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp
+Change Dir: /home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_car/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2575e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2575e.dir/build.make CMakeFiles/cmTC_2575e.dir/build
-make[1]: Entering directory '/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_car/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2575e.dir/CheckFunctionExists.cxx.o
-/usr/bin/c++     -std=c++11 -Wall -Wunused-function -Wunused-variable -Wfatal-errors -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_2575e.dir/CheckFunctionExists.cxx.o -c /home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_car/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
-Linking CXX executable cmTC_2575e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2575e.dir/link.txt --verbose=1
-/usr/bin/c++   -std=c++11 -Wall -Wunused-function -Wunused-variable -Wfatal-errors -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_2575e.dir/CheckFunctionExists.cxx.o  -o cmTC_2575e -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_037fa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_037fa.dir/build.make CMakeFiles/cmTC_037fa.dir/build
+make[1]: Entering directory '/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_car/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_037fa.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++     -std=c++11 -Wall -Wunused-function -Wunused-variable -Wfatal-errors -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_037fa.dir/CheckFunctionExists.cxx.o -c /home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_car/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_037fa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_037fa.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++11 -Wall -Wunused-function -Wunused-variable -Wfatal-errors -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_037fa.dir/CheckFunctionExists.cxx.o  -o cmTC_037fa -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_2575e.dir/build.make:97: recipe for target 'cmTC_2575e' failed
-make[1]: *** [cmTC_2575e] Error 1
-make[1]: Leaving directory '/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_car/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_2575e/fast' failed
-make: *** [cmTC_2575e/fast] Error 2
+CMakeFiles/cmTC_037fa.dir/build.make:97: recipe for target 'cmTC_037fa' failed
+make[1]: *** [cmTC_037fa] Error 1
+make[1]: Leaving directory '/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_car/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_037fa/fast' failed
+make: *** [cmTC_037fa/fast] Error 2
 
 

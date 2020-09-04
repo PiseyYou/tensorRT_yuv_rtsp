@@ -1,4 +1,4 @@
-# Install script for directory: /home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_vehicle/yolo/lib
+# Install script for directory: /home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_vehicle/yolo/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,0 +1,28 @@
+./apps/trt-yolo/build_vehicles/trt-yolo-vehicles --flagfile=config/p10m.txt
+./apps/trt-yolo/build_pic/trt-yolo-pic --flagfile=config/prune.txt
+./apps/trt-yolo/build_pic/trt-yolo-pic --flagfile=config/yolov3.txt
+
+
+demo:
+rtsp:
+#highway_animal
+cd ~/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_animal/yolo/apps/trt-yolo/build_animal/
+./trt-yolo-rtsp-animal --flagfile=config.txt
+
+#highway_person
+cd ~/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/
+./trt-yolo-rtsp-person --flagfile=yolov3.txt
+
+#highway_car
+cd ~/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_car/yolo/apps/trt-yolo/build_rtsp/
+./trt-yolo-rtsp-car --flagfile=p10m.txt
+
+
+#highway_vehicle
+cd ~/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_vehicle/yolo/apps/trt-yolo/build_rtsp/
+./trt-yolo-rtsp-vehicle --flagfile=prune.txt
+
+#重启服务器rtmp服务器
+sudo /usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf
+cd /usr/local/nginx/sbin/
+sudo ./nginx -s reload

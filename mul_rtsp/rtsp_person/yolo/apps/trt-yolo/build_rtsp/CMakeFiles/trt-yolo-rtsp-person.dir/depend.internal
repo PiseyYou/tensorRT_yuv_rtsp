@@ -11,7 +11,7 @@ CMakeFiles/trt-yolo-rtsp-person.dir/trt-yolo-rtsp-person.cpp.o
  ../../../lib/yolov3.h
  ../../../lib/zmq.h
  ../../../lib/zmq.hpp
- /home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/trt-yolo-rtsp-person.cpp
+ /home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/trt-yolo-rtsp-person.cpp
  /home/l/install/TensorRT-5.1.5.0/include/NvInfer.h
  /home/l/install/TensorRT-5.1.5.0/include/NvInferPlugin.h
  /usr/local/cuda/include/builtin_types.h

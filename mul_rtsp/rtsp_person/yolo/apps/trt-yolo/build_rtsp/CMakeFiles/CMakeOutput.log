@@ -10,33 +10,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp
+Change Dir: /home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_115a9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_115a9.dir/build.make CMakeFiles/cmTC_115a9.dir/build
-make[1]: Entering directory '/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_115a9.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_115a9.dir/testCXXCompiler.cxx.o -c /home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_115a9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_115a9.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_115a9.dir/testCXXCompiler.cxx.o  -o cmTC_115a9 
-make[1]: Leaving directory '/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_06321/fast"
+/usr/bin/make -f CMakeFiles/cmTC_06321.dir/build.make CMakeFiles/cmTC_06321.dir/build
+make[1]: Entering directory '/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_06321.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_06321.dir/testCXXCompiler.cxx.o -c /home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_06321
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06321.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_06321.dir/testCXXCompiler.cxx.o  -o cmTC_06321 
+make[1]: Leaving directory '/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp
+Change Dir: /home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_53e3f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_53e3f.dir/build.make CMakeFiles/cmTC_53e3f.dir/build
-make[1]: Entering directory '/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_53e3f.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_53e3f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_53e3f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53e3f.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_53e3f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_53e3f  
+Run Build Command:"/usr/bin/make" "cmTC_bbd56/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bbd56.dir/build.make CMakeFiles/cmTC_bbd56.dir/build
+make[1]: Entering directory '/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bbd56.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_bbd56.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_bbd56
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbd56.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_bbd56.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_bbd56  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -46,23 +46,23 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_53e3f' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJX1c44.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_53e3f /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_53e3f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bbd56' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsVOuOI.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_bbd56 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_bbd56.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_53e3f/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_53e3f.dir/build.make CMakeFiles/cmTC_53e3f.dir/build]
-  ignore line: [make[1]: Entering directory '/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_53e3f.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_53e3f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_53e3f]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53e3f.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_53e3f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_53e3f  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_bbd56/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_bbd56.dir/build.make CMakeFiles/cmTC_bbd56.dir/build]
+  ignore line: [make[1]: Entering directory '/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_bbd56.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_bbd56.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_bbd56]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbd56.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_bbd56.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_bbd56  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -72,13 +72,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_53e3f' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJX1c44.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_53e3f /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_53e3f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bbd56' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsVOuOI.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_bbd56 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_bbd56.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccJX1c44.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccsVOuOI.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -95,7 +95,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_53e3f] ==> ignore
+    arg [cmTC_bbd56] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -107,7 +107,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_53e3f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_bbd56.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -137,17 +137,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp
+Change Dir: /home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_586d9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_586d9.dir/build.make CMakeFiles/cmTC_586d9.dir/build
-make[1]: Entering directory '/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_586d9.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_586d9.dir/feature_tests.cxx.o -c /home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_586d9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_586d9.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_586d9.dir/feature_tests.cxx.o  -o cmTC_586d9 
-make[1]: Leaving directory '/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_235e4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_235e4.dir/build.make CMakeFiles/cmTC_235e4.dir/build
+make[1]: Entering directory '/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_235e4.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_235e4.dir/feature_tests.cxx.o -c /home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_235e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_235e4.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_235e4.dir/feature_tests.cxx.o  -o cmTC_235e4 
+make[1]: Leaving directory '/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -210,17 +210,17 @@ make[1]: Leaving directory '/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp
+Change Dir: /home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_52021/fast"
-/usr/bin/make -f CMakeFiles/cmTC_52021.dir/build.make CMakeFiles/cmTC_52021.dir/build
-make[1]: Entering directory '/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_52021.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_52021.dir/feature_tests.cxx.o -c /home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_52021
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52021.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_52021.dir/feature_tests.cxx.o  -o cmTC_52021 
-make[1]: Leaving directory '/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_8a9fc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8a9fc.dir/build.make CMakeFiles/cmTC_8a9fc.dir/build
+make[1]: Entering directory '/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8a9fc.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_8a9fc.dir/feature_tests.cxx.o -c /home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_8a9fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a9fc.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_8a9fc.dir/feature_tests.cxx.o  -o cmTC_8a9fc 
+make[1]: Leaving directory '/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -283,17 +283,17 @@ make[1]: Leaving directory '/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp
+Change Dir: /home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6a5db/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6a5db.dir/build.make CMakeFiles/cmTC_6a5db.dir/build
-make[1]: Entering directory '/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6a5db.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_6a5db.dir/feature_tests.cxx.o -c /home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_6a5db
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a5db.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_6a5db.dir/feature_tests.cxx.o  -o cmTC_6a5db 
-make[1]: Leaving directory '/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_d66a8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d66a8.dir/build.make CMakeFiles/cmTC_d66a8.dir/build
+make[1]: Entering directory '/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d66a8.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_d66a8.dir/feature_tests.cxx.o -c /home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d66a8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d66a8.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_d66a8.dir/feature_tests.cxx.o  -o cmTC_d66a8 
+make[1]: Leaving directory '/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -354,30 +354,30 @@ make[1]: Leaving directory '/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp
+Change Dir: /home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8e0f5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8e0f5.dir/build.make CMakeFiles/cmTC_8e0f5.dir/build
-make[1]: Entering directory '/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8e0f5.dir/CheckIncludeFile.cxx.o
-/usr/bin/c++     -std=c++11 -Wall -Wunused-function -Wunused-variable -Wfatal-errors    -o CMakeFiles/cmTC_8e0f5.dir/CheckIncludeFile.cxx.o -c /home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-Linking CXX executable cmTC_8e0f5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e0f5.dir/link.txt --verbose=1
-/usr/bin/c++   -std=c++11 -Wall -Wunused-function -Wunused-variable -Wfatal-errors     CMakeFiles/cmTC_8e0f5.dir/CheckIncludeFile.cxx.o  -o cmTC_8e0f5 
-make[1]: Leaving directory '/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_3f0e4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3f0e4.dir/build.make CMakeFiles/cmTC_3f0e4.dir/build
+make[1]: Entering directory '/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3f0e4.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -std=c++11 -Wall -Wunused-function -Wunused-variable -Wfatal-errors    -o CMakeFiles/cmTC_3f0e4.dir/CheckIncludeFile.cxx.o -c /home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_3f0e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f0e4.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++11 -Wall -Wunused-function -Wunused-variable -Wfatal-errors     CMakeFiles/cmTC_3f0e4.dir/CheckIncludeFile.cxx.o  -o cmTC_3f0e4 
+make[1]: Leaving directory '/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp
+Change Dir: /home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ff13c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ff13c.dir/build.make CMakeFiles/cmTC_ff13c.dir/build
-make[1]: Entering directory '/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ff13c.dir/CheckFunctionExists.cxx.o
-/usr/bin/c++     -std=c++11 -Wall -Wunused-function -Wunused-variable -Wfatal-errors -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ff13c.dir/CheckFunctionExists.cxx.o -c /home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
-Linking CXX executable cmTC_ff13c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff13c.dir/link.txt --verbose=1
-/usr/bin/c++   -std=c++11 -Wall -Wunused-function -Wunused-variable -Wfatal-errors -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_ff13c.dir/CheckFunctionExists.cxx.o  -o cmTC_ff13c -lpthread 
-make[1]: Leaving directory '/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_63865/fast"
+/usr/bin/make -f CMakeFiles/cmTC_63865.dir/build.make CMakeFiles/cmTC_63865.dir/build
+make[1]: Entering directory '/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_63865.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++     -std=c++11 -Wall -Wunused-function -Wunused-variable -Wfatal-errors -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_63865.dir/CheckFunctionExists.cxx.o -c /home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_63865
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63865.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++11 -Wall -Wunused-function -Wunused-variable -Wfatal-errors -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_63865.dir/CheckFunctionExists.cxx.o  -o cmTC_63865 -lpthread 
+make[1]: Leaving directory '/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/CMakeTmp'
 
 

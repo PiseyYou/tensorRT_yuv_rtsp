@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++11 -Wall -Wunused-function -Wunused-variable -Wfatal-errors
 
 CXX_DEFINES = -DOPENCV_TRAITS_ENABLE_DEPRECATED
 
-CXX_INCLUDES = -I/usr/local/cuda/include -I/home/l/install/TensorRT-5.1.5.0/include -I/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_vehicle/yolo/apps/trt-yolo/../../lib -isystem /usr/local/include -isystem /usr/local/include/opencv 
+CXX_INCLUDES = -I/usr/local/cuda/include -I/home/l/install/TensorRT-5.1.5.0/include -I/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_vehicle/yolo/apps/trt-yolo/../../lib -isystem /usr/local/include -isystem /usr/local/include/opencv 
 

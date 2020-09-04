@@ -31,9 +31,9 @@
 # labels_file_path : Text file with a list of object class labels
 
 --network_type=yolov3
---config_file_path=/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/data/yolov3.cfg
---wts_file_path=/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/data/yolov3.weights
---labels_file_path=/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/data/labels.txt
+--config_file_path=/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/data/yolov3.cfg
+--wts_file_path=/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/data/yolov3.weights
+--labels_file_path=/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/data/labels.txt
 
 #Optional config params
 # precision : Inference precision of the network

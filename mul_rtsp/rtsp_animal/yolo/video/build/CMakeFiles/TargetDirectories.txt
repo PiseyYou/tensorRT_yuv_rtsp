@@ -1,0 +1,3 @@
+/home/l/Downloads/PiseyYou/multidetect/mul_1/yolo/video/build/CMakeFiles/edit_cache.dir
+/home/l/Downloads/PiseyYou/multidetect/mul_1/yolo/video/build/CMakeFiles/rebuild_cache.dir
+/home/l/Downloads/PiseyYou/multidetect/mul_1/yolo/video/build/CMakeFiles/video_test.dir

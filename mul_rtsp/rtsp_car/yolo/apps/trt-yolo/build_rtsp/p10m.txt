@@ -31,9 +31,9 @@
 # labels_file_path : Text file with a list of object class labels
 
 --network_type=yolov3
---config_file_path=/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_car/yolo/data/10m/608/prune_16_shortcut_prune_0.95_keep_0.1_highway_5c_608.cfg
---wts_file_path=/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_car/yolo/data/10m/608/prune_16_shortcut_prune_0_20000.weights
---labels_file_path=/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_car/yolo/data/10m/608/labels.txt
+--config_file_path=/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_car/yolo/data/10m/608/prune_16_shortcut_prune_0.95_keep_0.1_highway_5c_608.cfg
+--wts_file_path=/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_car/yolo/data/10m/608/prune_16_shortcut_prune_0_20000.weights
+--labels_file_path=/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_car/yolo/data/10m/608/labels.txt
 
 #Optional config params
 # precision : Inference precision of the network

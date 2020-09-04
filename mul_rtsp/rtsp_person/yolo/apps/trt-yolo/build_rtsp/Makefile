@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo
+CMAKE_SOURCE_DIR = /home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp
+CMAKE_BINARY_DIR = /home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,9 +124,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles /home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles /home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_person/yolo/apps/trt-yolo/build_rtsp/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

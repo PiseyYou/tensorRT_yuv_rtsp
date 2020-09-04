@@ -56,18 +56,18 @@ endif()
 
 # Set these up as variables to make reading the generated file easier
 set(CMAKE_COMMAND "/usr/bin/cmake") # path
-set(source_file "/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_vehicle/yolo/lib/kernels.cu") # path
-set(NVCC_generated_dependency_file "/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_vehicle/yolo/apps/trt-yolo/build_rtsp/lib/CMakeFiles/cuda_compile.dir//cuda_compile_generated_kernels.cu.o.NVCC-depend") # path
-set(cmake_dependency_file "/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_vehicle/yolo/apps/trt-yolo/build_rtsp/lib/CMakeFiles/cuda_compile.dir//cuda_compile_generated_kernels.cu.o.depend") # path
+set(source_file "/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_vehicle/yolo/lib/kernels.cu") # path
+set(NVCC_generated_dependency_file "/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_vehicle/yolo/apps/trt-yolo/build_rtsp/lib/CMakeFiles/cuda_compile.dir//cuda_compile_generated_kernels.cu.o.NVCC-depend") # path
+set(cmake_dependency_file "/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_vehicle/yolo/apps/trt-yolo/build_rtsp/lib/CMakeFiles/cuda_compile.dir//cuda_compile_generated_kernels.cu.o.depend") # path
 set(CUDA_make2cmake "/usr/share/cmake-3.5/Modules/FindCUDA/make2cmake.cmake") # path
 set(CUDA_parse_cubin "/usr/share/cmake-3.5/Modules/FindCUDA/parse_cubin.cmake") # path
 set(build_cubin OFF) # bool
 set(CUDA_HOST_COMPILER "") # path
 # We won't actually use these variables for now, but we need to set this, in
 # order to force this file to be run again if it changes.
-set(generated_file_path "/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_vehicle/yolo/apps/trt-yolo/build_rtsp/lib/CMakeFiles/cuda_compile.dir//.") # path
-set(generated_file_internal "/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_vehicle/yolo/apps/trt-yolo/build_rtsp/lib/CMakeFiles/cuda_compile.dir//./cuda_compile_generated_kernels.cu.o") # path
-set(generated_cubin_file_internal "/home/l/Downloads/PiseyYou/multidetect/mul_rtsp/rtsp_vehicle/yolo/apps/trt-yolo/build_rtsp/lib/CMakeFiles/cuda_compile.dir//./cuda_compile_generated_kernels.cu.o.cubin.txt") # path
+set(generated_file_path "/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_vehicle/yolo/apps/trt-yolo/build_rtsp/lib/CMakeFiles/cuda_compile.dir//.") # path
+set(generated_file_internal "/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_vehicle/yolo/apps/trt-yolo/build_rtsp/lib/CMakeFiles/cuda_compile.dir//./cuda_compile_generated_kernels.cu.o") # path
+set(generated_cubin_file_internal "/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_vehicle/yolo/apps/trt-yolo/build_rtsp/lib/CMakeFiles/cuda_compile.dir//./cuda_compile_generated_kernels.cu.o.cubin.txt") # path
 
 set(CUDA_NVCC_EXECUTABLE "/usr/local/cuda/bin/nvcc") # path
 set(CUDA_NVCC_FLAGS  ;; ) # list

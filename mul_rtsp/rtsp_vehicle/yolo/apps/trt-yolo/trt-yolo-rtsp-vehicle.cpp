@@ -5,6 +5,7 @@
 #include "yolov3.h"
 
 #include <experimental/filesystem>
+#include <ctime>
 #include <cstring>
 #include <sys/time.h>
 #include <time.h>
@@ -24,7 +25,7 @@
 using namespace std;
 using namespace cv;
 
-#define pbREQ_IP_PORT "tcp://192.168.1.200:5555"
+#define pbREQ_IP_PORT "tcp://192.168.1.104:5555"
 // #define PUB_IP "tcp://192.168.1.200:"
 //#define PUB_IP_local "tcp://127.0.0.1:6557"
 #define REQ_IP_PORT "tcp://192.168.1.210:5530"
@@ -106,7 +107,6 @@ string get_Ntp() {
     return stNtpTime;
 }
 
-
 // string req_port(zmq::socket_t &reqer) {
 //     string name = "name=detector6;action=getport";
 //     zmq::message_t message(strlen(name.c_str()));
@@ -161,6 +161,24 @@ int main(int argc, char **argv) {
     return 0;
 
 }
+
+int getTime() {
+    return clock()/CLOCKS_PER_SEC;
+}
+
+// void send_pulse(zmq::socket_t &reqer) {
+//     int lastTime = 0;
+//     while (1) {
+//         int now = getTime();
+//         if (now - lastTime == 5) {
+//         string get_url = "name=detector6;action=get_rtsp_url";
+//         zmq::message_t pulse(strlen(get_url.c_str()));
+//         memcpy((void *) pulse.data(), get_url.c_str(), strlen(get_url.c_str()));
+//         reqer.send(pulse);
+//         lastTime = now;
+//         }
+//     }
+// }
 
 
 // void get_rgb_img() {
@@ -259,7 +277,6 @@ void detect_highway_person(int argc, char **argv) {
     cout << "The ZMQ_req client is connect...." << endl;
 
 
-
     string name = "name=detector6;action=get_rtsp_url";
     zmq::message_t message(strlen(name.c_str()));
     memcpy((void *) message.data(), name.c_str(), strlen(name.c_str()));
@@ -277,7 +294,6 @@ void detect_highway_person(int argc, char **argv) {
         cout << "video recv rtsp_url:" << remsg << endl;
     }
 
-
     vector <DsImage> dsImages;
     VideoCapture cap;
     Mat frame;
@@ -294,7 +310,25 @@ void detect_highway_person(int argc, char **argv) {
     int no_person_frame = 0;
     string state = "end";
 //    string state ="";
+    int lastTime = 0;
     while (ret) {
+        int now = getTime();
+        cout << "now Time: " << now << endl;
+        cout << "last Time: " << lastTime << endl;
+
+        if ((now - lastTime) == 5) {
+            string get_url = "name=detector6;action=get_rtsp_url";
+            zmq::message_t pulse(strlen(get_url.c_str()));
+            memcpy((void *) pulse.data(), get_url.c_str(), strlen(get_url.c_str()));
+            reqer.send(pulse);
+            // reqer.send(message);
+            cout << "send pulse OK" << endl;
+            lastTime = now;
+            zmq::message_t serbak;
+            reqer.recv(&serbak);
+            std::string remsg = std::string(static_cast<char *>(reply.data()), reply.size());
+            std::cout << "get the reply: " << remsg << std::endl;
+        }
 
         double timecost3 = (double) getTickCount();
 
@@ -347,7 +381,7 @@ void detect_highway_person(int argc, char **argv) {
                 string objInfo;
                 objInfo.clear();
                 //objInfo = "person," + to_string(left) + "," + to_string(top) + "," +
-                          to_string(width) + "," + to_string(height) + ",";
+                //          to_string(width) + "," + to_string(height) + ",";
                 //objBoxesInfo = objBoxesInfo + objInfo;
                 objBoxesInfo = "vehicle,";
                 rectangle(frame, Rect(left, top, width, height), cv::Scalar(0, 0, 255), 1);
