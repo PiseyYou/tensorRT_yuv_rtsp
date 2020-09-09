@@ -1,8 +1,0 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/l/Downloads/deepstream_reference_apps/yolo/apps/trt-yolo
-CMake Error at CMakeLists.txt:57 (MESSAGE):
-  -- Unable to find TensorRT headers.  Please set path using -DTRT_SDK_ROOT
-
-
--- Configuring incomplete, errors occurred!
-See also "/home/l/Downloads/deepstream_reference_apps/yolo/apps/trt-yolo/cmake-build-debug/CMakeFiles/CMakeOutput.log".
-See also "/home/l/Downloads/deepstream_reference_apps/yolo/apps/trt-yolo/cmake-build-debug/CMakeFiles/CMakeError.log".

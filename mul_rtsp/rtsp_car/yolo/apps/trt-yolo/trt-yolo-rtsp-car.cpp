@@ -24,7 +24,7 @@
 using namespace std;
 using namespace cv;
 
-#define pbREQ_IP_PORT "tcp://192.168.1.102:5555"
+#define pbREQ_IP_PORT "tcp://192.168.1.104:5555"
 // #define PUB_IP "tcp://192.168.1.200:"
 //#define PUB_IP_local "tcp://127.0.0.1:6557"
 #define REQ_IP_PORT "tcp://192.168.1.210:5530"

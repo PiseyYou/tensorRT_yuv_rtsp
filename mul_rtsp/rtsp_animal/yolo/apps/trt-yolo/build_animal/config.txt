@@ -31,9 +31,9 @@
 # labels_file_path : Text file with a list of object class labels
 
 --network_type=yolov3
---config_file_path=/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_animal/yolo/apps/trt-yolo/lsh/yolov3-coco-a9.cfg
---wts_file_path=/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_animal/yolo/apps/trt-yolo/lsh/yolov3-coco-a9.weights
---labels_file_path=/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_animal/yolo/apps/trt-yolo/lsh/coco_a9.names
+--config_file_path=/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_animal/yolo/data/lsh/yolov3-coco-a9.cfg
+--wts_file_path=/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_animal/yolo/data/lsh/yolov3-coco-a9.weights
+--labels_file_path=/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_animal/yolo/data/lsh/coco_a9.names
 
 #Optional config params
 # precision : Inference precision of the network

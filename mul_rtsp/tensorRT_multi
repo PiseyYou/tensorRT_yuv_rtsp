@@ -22,6 +22,10 @@ cd ~/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_car/yolo/apps/trt-yolo/b
 cd ~/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_vehicle/yolo/apps/trt-yolo/build_rtsp/
 ./trt-yolo-rtsp-vehicle --flagfile=prune.txt
 
+#hightway_traffic
+cd /home/l/Downloads/PiseyYou/deepstream_reference_apps-restructure/yolo/apps/trt-yolo/build
+./trt-yolo-traficcone --flagfile=hf_tfc.txt
+
 #重启服务器rtmp服务器
 sudo /usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf
 cd /usr/local/nginx/sbin/

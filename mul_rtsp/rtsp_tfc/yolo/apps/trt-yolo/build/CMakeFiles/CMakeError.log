@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_tfc/yolo/apps/trt-yolo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_12905/fast"
+/usr/bin/make -f CMakeFiles/cmTC_12905.dir/build.make CMakeFiles/cmTC_12905.dir/build
+make[1]: Entering directory '/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_tfc/yolo/apps/trt-yolo/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_12905.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++     -std=c++11 -Wall -Wunused-function -Wunused-variable -Wfatal-errors    -o CMakeFiles/cmTC_12905.dir/CheckSymbolExists.cxx.o -c /home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_tfc/yolo/apps/trt-yolo/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_12905
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12905.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++11 -Wall -Wunused-function -Wunused-variable -Wfatal-errors     CMakeFiles/cmTC_12905.dir/CheckSymbolExists.cxx.o  -o cmTC_12905 
+CMakeFiles/cmTC_12905.dir/CheckSymbolExists.cxx.o: In function `main':
+CheckSymbolExists.cxx:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_12905.dir/build.make:97: recipe for target 'cmTC_12905' failed
+make[1]: *** [cmTC_12905] Error 1
+make[1]: Leaving directory '/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_tfc/yolo/apps/trt-yolo/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_12905/fast' failed
+make: *** [cmTC_12905/fast] Error 2
+
+File /home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_tfc/yolo/apps/trt-yolo/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_tfc/yolo/apps/trt-yolo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_46ed4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_46ed4.dir/build.make CMakeFiles/cmTC_46ed4.dir/build
+make[1]: Entering directory '/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_tfc/yolo/apps/trt-yolo/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_46ed4.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++     -std=c++11 -Wall -Wunused-function -Wunused-variable -Wfatal-errors -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_46ed4.dir/CheckFunctionExists.cxx.o -c /home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_tfc/yolo/apps/trt-yolo/build/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_46ed4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46ed4.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++11 -Wall -Wunused-function -Wunused-variable -Wfatal-errors -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_46ed4.dir/CheckFunctionExists.cxx.o  -o cmTC_46ed4 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_46ed4.dir/build.make:97: recipe for target 'cmTC_46ed4' failed
+make[1]: *** [cmTC_46ed4] Error 1
+make[1]: Leaving directory '/home/l/Downloads/PiseyYou/tensorRT_zmq_rtsp/mul_rtsp/rtsp_tfc/yolo/apps/trt-yolo/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_46ed4/fast' failed
+make: *** [cmTC_46ed4/fast] Error 2
+
+
